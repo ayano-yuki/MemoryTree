@@ -1,0 +1,12 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root{
+  --color-black: #323232;
+  --color-orange: #f58433;
+  --color-white: #fefefe;
+
+  --btn-color-main: #54bde2;
+  --btn-color-sub:  #ff8733;
+
+  --text-color-main: #323232;
+  --text-color-sub: #fefefe;
+}
