@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Success</title>
+    <link rel="icon" type="image/png" href="{% static 'img/favicon.svg' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" />
+</head>
+
+<body>
+    <h1>日記が保存されました！</h1>
+    <a href="{% url 'memorytree:write_diary' %}">新しい日記を書く</a>
+</body>
+
+</html>
